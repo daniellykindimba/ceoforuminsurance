@@ -1,0 +1,18 @@
+datasource db {
+  provider = "mysql"
+  url      = "mysql://ceo:ceo100@192.168.1.220:3306/ceo"
+}
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+model Employee {
+  id            Int      @id @default(autoincrement())
+  first_name    String
+  middle_name   String
+  last_name     String
+  check_number  String
+  employee_type String
+}
