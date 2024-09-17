@@ -17,7 +17,7 @@ export default function HederComponent() {
 
         {/* Title Section */}
         <h1 className="text-3xl font-extrabold text-green-600 my-4">
-          CEO&apos;S FORUM INSURANCE APPLICATION
+          GraciasLife Application Form
         </h1>
       </div>
     </div>
